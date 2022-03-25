@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="Calc.css">
+    <script src="Calcc.js"></script>
+</head>
+
+
+<body>
+
+        <div class="frame">
+            <div class="screen" >  
+                <input type="text" id="output">
+            </div>
+    
+            
+                <div class="row1">
+                    <button onclick="display('/')" class="size">/</button>
+                    <button onclick="display('c')" class="size">C</button>
+                    <button onclick="display('0')" class="size">0</button>
+                    <button onclick="display('*')" class="size">*</button>
+
+                </div>
+                <div class="row2">
+                    <button onclick="display('7')" class="size">7</button>
+                    <button onclick="display('8')" class="size">8</button>
+                    <button onclick="display('9')" class="size">9</button>
+                    <button onclick="display('-')" class="size">-</button>
+                </div>
+                <div class="row3">
+                    <button onclick="display('4')" class="size">4</button>
+                    <button onclick="display('5')" class="size">5</button>
+                    <button onclick="display('6')" class="size">6</button>
+                    <button onclick="display('+')" class="size">+</button>
+                </div>
+                <div class="row4">
+                    <button onclick="display('1')" class="size">1</button>
+                    <button onclick="display('2')" class="size">2</button>
+                    <button onclick="display('3')" class="size">3</button>
+                    <button onclick="equalto()" class="size">=</button>
+                </div>
+            
+            
+        </div>
+
+    
+</body>
+</html>
